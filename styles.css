@@ -1,0 +1,99 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+/* Common styles */
+body{
+    font-family: 'Work Sans';
+    color: #131313;
+}
+/*--------------------
+ header style
+ -------------------- */
+.header{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.header-menu{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* ------header end----- */
+
+/* --------------------
+------Banner------------
+----------------------- */
+.banner{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-info{
+    color: #131313;
+    text-align: center;
+    margin: 0 auto;
+}
+.button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner .p img{
+    width: 1440px;
+    height: 700px;
+}
+/* --------------Banner End--------------- */
+/* -----------------------
+----First Section----------
+------------------------- */
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    row-gap:24px ;
+}
+.first-section-image{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.first-section-image img{
+    width: 342px;
+    height: 342px;
+}
+.first-section-info{
+    /* margin-top: -200px; */
+}
+.first-section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.quicklist{
+    color: #727272;
+    font-weight: 500;
+}
+.features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.first-section-detail{
+    color: #727272;
+}
+/* -----------First Section End------------- */
